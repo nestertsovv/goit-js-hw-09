@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form page</title>
+    
+  <script type="module" crossorigin src="/goit-js-hw-09/commonHelpers2.js"></script>
+  <link rel="modulepreload" crossorigin href="/goit-js-hw-09/assets/modulepreload-polyfill-3cfb730f.js">
+  <link rel="stylesheet" href="/goit-js-hw-09/assets/styles-a1af13a4.css">
+</head>
+<body>
+    <a href="./index.html">Go back</a>
+
+    <div class="js-form-error">
+        <div class="error-text">Fill please all fields</div>
+    </div>
+
+    <form class="feedback-form" autocomplete="off">
+        <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" autofocus />
+        </div>
+        <div class="form-row">
+            <label for="message">Message</label>
+            <textarea name="message" rows="8" id="message"></textarea>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+
+    
+</body>
+</html>
